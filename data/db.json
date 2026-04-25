@@ -1,0 +1,112 @@
+{
+  "vendors": [
+    {
+      "id": "0aad2644-d020-4f13-92e4-d17d2a929b3c",
+      "code": "VEND001",
+      "name": "Tech Solutions",
+      "contact_email": "bagchaserworld@outlook.com",
+      "phone": null,
+      "created_at": "2025-12-15T06:02:22.468353"
+    },
+    {
+      "id": "143c49d3-98ff-480e-907b-1e32b5b867ad",
+      "code": "VEND002",
+      "name": "Coal",
+      "contact_email": "twisisanik@gmail.com",
+      "phone": null,
+      "created_at": "2025-12-15T12:04:23.609257"
+    }
+  ],
+  "purchase_orders": [
+    {
+      "po_number": "POCD7BA525",
+      "vendor_code": "VEND001",
+      "total_amount": 24570.0,
+      "currency": "ZAR",
+      "status": "PO_CREATED",
+      "lines": [
+        {
+          "description": "Description",
+          "qty": 455,
+          "unit_price": 54.0
+        }
+      ],
+      "created_at": "2025-12-15T06:03:09.906520",
+      "updated_at": "2025-12-15T06:03:09.906535"
+    },
+    {
+      "po_number": "POC6FA3150",
+      "vendor_code": "VEND002",
+      "total_amount": 1222.0,
+      "currency": "ZAR",
+      "status": "PO_DRAFT",
+      "lines": [
+        {
+          "description": "coals",
+          "qty": 26,
+          "unit_price": 47.0
+        }
+      ],
+      "created_at": "2025-12-15T12:04:43.442692",
+      "updated_at": "2025-12-15T12:04:43.442273"
+    }
+  ],
+  "po_events": [
+    {
+      "po_number": "POCD7BA525",
+      "event_type": "created",
+      "event_data": {
+        "lines": 1
+      }
+    },
+    {
+      "po_number": "POC6FA3150",
+      "event": "CREATED",
+      "status": "PO_DRAFT"
+    }
+  ],
+  "users": [
+    {
+      "id": "0feb7fde-4c43-48ca-a3f8-cba10c46293e",
+      "email": "twisisanik@gmail.com",
+      "password": "a5255a4deb9a473fe3c5b966cba512d7$aa3563aac90b36c8775dc0cc1fc13218f5e0c57ec29c1c5761820d85b6c6011f",
+      "role": "buyer",
+      "created_at": "2025-12-23T10:41:07.387036"
+    },
+    {
+      "id": "8aeecc9f-253f-4106-9f7f-0e94d932300c",
+      "email": "pablokhosa273@gmail.com",
+      "password": "6d688b0cd50c9450bfbb363ed77272fb$3977fc3cc72a2d9fe6650cd418312b3ab01221ab5fb6b549ff5741d6c60df3f7",
+      "role": "buyer",
+      "created_at": "2025-12-23T11:38:17.995138"
+    },
+    {
+      "id": "6603c122-207f-488c-8d01-f576d3a83284",
+      "email": "mchavalala55@gmail.com",
+      "password": "025f0b143e475a77046aa3eceb54ed18$5b98c5848fb86b1d19ad1e47b4f60d6a48c2ed1866c504c7177098bfe1e2b9b6",
+      "role": "buyer",
+      "created_at": "2025-12-24T05:39:54.437147"
+    },
+    {
+      "id": "b9f1ed1f-444d-453a-b2ae-71185ae95f01",
+      "email": "musachavalala081@gmail.com",
+      "password": "bc25ae484ec8b1b41f7f23026158a849$b2c6c74f3d58efa5da13e583ffd1df0b24cf9c558e998cbacf4552d56b60f6dc",
+      "role": "buyer",
+      "created_at": "2025-12-24T05:45:13.240799"
+    },
+    {
+      "id": "ea315b20-32f7-4652-a509-2933e11134a7",
+      "email": "chavalalamoosa196@gmail.com",
+      "password": "7719f00b7aefdf29c2e8e064efd8b5c6$cac33b35c18201026b3ba19cc74f9c42fa310d28cffb8b6a45601218ac71b32a",
+      "role": "buyer",
+      "created_at": "2025-12-24T05:51:37.658710"
+    },
+    {
+      "id": "900bc716-a315-4289-a970-37a921dc985d",
+      "email": "odunaikesa@tut.ac.za",
+      "password": "b5a176f8e551ce0442ad0bd270c0be3a$337159426b6b2b700ca2be3d17b8f5acd2c186398d2a1ad9ed9f20c77c35f769",
+      "role": "buyer",
+      "created_at": "2025-12-24T09:29:03.473126"
+    }
+  ]
+}
